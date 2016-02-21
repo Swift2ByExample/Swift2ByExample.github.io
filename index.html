@@ -57,12 +57,11 @@
 		<nav class="navbar navbar-default navbar-top header" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand logo" href="./index.html"><i class="fa fa-book"></i> Sparks</a>
+					<a class="navbar-brand logo" href="./index.html"><i class="fa fa-book"></i> Swift 2 By Example</a>
 				</div>
 				<ul class="header-nav">
-					<li><a><i class="fa fa-phone"></i> +44 12345 678</a></li>
-					<li><a href="mailto:info@swift-by-example.com"><i class="fa fa-envelope-o"></i> info@dkpixels.com</a></li>
-					<li class="purchase"><a href="http://themeforest.net/item/sparks-responsive-bootstrap-landing-page/6968443" target="_blank"><i class="fa fa-download"></i> Purchase</a></li>
+					<li><a href="mailto:info@swift-by-example.com"><i class="fa fa-envelope-o"></i> info@swift-by-example.com</a></li>
+					<li class="purchase"><a href="https://www.packtpub.com/application-development/swift-2-example" target="_blank"><i class="fa fa-download"></i> Purchase</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -80,29 +79,29 @@
 				<div class="col-lg-5">
 					<div class="order-wrap">
 						<h2><i class="fa fa-shopping-cart"></i> Order Now!</h2>
-						<form class="apply-form form-group" method="post" action="php/contact.php">
-							<div class="row">
-								<div class="col-lg-6">
-									<input type="text" name="firstname" class="form-control" placeholder="First Name" required="required">
-								</div>
-								<div class="col-lg-6">
-									<input type="text" name="lastname" class="form-control" placeholder="Last Name" required="required">
-								</div>
-							</div>
-							<input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
-							<select name="booklist" class="form-control" >
-								<option value="No&nbsp;book&nbsp;Selected">Select a book</option>
-								<option value="Wordpress&nbsp;installation&nbsp;ebook">Wordpress installation ebook</option>
-								<option value="Learn&nbsp;to&nbsp;be&nbsp;a&nbsp;rockstart">Learn to be a rockstart</option>
-								<option value="Some&nbsp;ebook&nbsp;name">Some ebook name</option>
-							</select>
-							<textarea rows="2" name="message" class="form-control" placeholder="Question? If any.."></textarea>
+						<form class="form-group" target="_blank" 
+								method="get" 
+								action="https://www.packtpub.com/application-development/swift-2-example">
+							<div class="item col-lg-12">
+						<div class="mb-wrap service-item">
+						<h2>Learn Quickly How To:</h2>
+<ul >
+<li>Build games with SpriteKit and SceneKit</li>
+<li>Create a server in Swift to deliver JSON data to an iOS app</li>
+<li>Use a clean and effective architecture to decrease complexity and speed up development</li>
+<li>Take advantage of the most useful parts of the iOS SDK</li>
+</ul>						</div>
+					</div>
+
 							<div class="form-btn">
-								<button type="submit" class="btn1 btn-center" href="#">Submit</button>  
+								<button type="submit" 
+								class="btn1 btn-center" 
+								value="submit"
+								formtarget="_blank"
+								href="https://www.packtpub.com/application-development/swift-2-example"
+								>Purchase!</button>  
 							</div>
 						</form>
-						<div id="loading"><span>Sending your message....</span></div>
-						<div id="success"><span><i class="fa fa-check"></i> <span></div>
 					</div>
 				</div>
 			</div>
@@ -134,16 +133,16 @@
 				<div class="col-lg-3 text-center">
 					<div class="service-item">
 						<i class="service-icon fa fa-desktop"></i>
-						<h4>Responsive Design</h4>
-						<p>Sed dolor nisl, blandit nec lacus erat nulla viverra massa vitae diam aliquam ullam corper.</p>
+						<h4>For Beginner and Experienced Developers</h4>
+						<p>Starting with simple apps to more complex ones, the book will show how to master iOS development with Swift.</p>
 					</div>
 				</div>
 				<!-- Service - 2 -->
 				<div class="col-lg-3 text-center">
 					<div class="service-item">
 						<i class="service-icon fa fa-rocket"></i>
-						<h4>Quick Launch</h4>
-						<p>Sed dolor nisl, blandit nec lacus erat nulla viverra massa vitae diam aliquam ullam corper.</p>
+						<h4>Fun and useful Apps</h4>
+						<p>This book will show how to implement seven different apps, from utilities to games in 3D.</p>
 					</div>
 				</div>
 				<!-- Service - 3 -->
@@ -151,15 +150,15 @@
 					<div class="service-item">
 						<i class="service-icon fa fa-code"></i>
 						<h4>Clean Coded</h4>
-						<p>Sed dolor nisl, blandit nec lacus erat nulla viverra massa vitae diam aliquam ullam corper.</p>
+						<p>The book doesn't show only the features of the language, but also how to write clean code, easy to extend and to mantain.</p>
 					</div>
 				</div>
 				<!-- Service - 4 -->
 				<div class="col-lg-3 text-center">
 					<div class="service-item">
 						<i class="service-icon fa fa-users"></i>
-						<h4>Clients Loving</h4>
-						<p>Sed dolor nisl, blandit nec lacus erat nulla viverra massa vitae diam aliquam ullam corper.</p>
+						<h4>Open Sourced code</h4>
+						<p>All the code of the apps is available on Github, licensed as Open Source, so that you can use it in your apps.</p>
 					</div>
 				</div>
 			</div>
@@ -173,7 +172,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<img class="img-responsive" src="demo/2.png" alt="">
+					<img class="img-responsive" src="demo/2.jpg" alt="">
 				</div>
 				<div class="col-lg-6">
 					<h2>Hi, visitor</h2>					
@@ -215,65 +214,28 @@ In my spare time, when I'm not crafting retro game clones for iOS with my kids, 
 				<div id="owl-example" class="owl-carousel">
 					<div class="item col-lg-12">
 						<div class="mb-wrap blockquote-style">
-							<div class="mb-thumb1"></div>
 							<blockquote cite="#">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus pellen tesque justo.</p>
+								<p>In the later examples in this book, the author shows you how to import and use CocoaPods.
+I'm giving this book four stars because it seems obvious to me that the author is an accomplished coder and his example programs are well-structured.</p>
 							</blockquote>
-							<div class="mb-attribution">
-								<p class="mb-author">Sherry Taylor</p>
-								<cite>Xyz , Founder</cite>
-							</div>
 						</div>
 					</div>
 					<div class="item col-lg-12">
 						<div class="mb-wrap blockquote-style">
-							<div class="mb-thumb2"></div>
 							<blockquote cite="#">
-								<p>Integer auctor, purus a mattis aliquet, augue ligula tincidunt elit, vitae lacinia lacus massa at nibh.</p>
+								<p> The apps you build in this book are not trivial. The author stresses code reusability and flexibility and lays out his programs accordingly. He frequently uses extensions to good effect. The author also doesn't give you simplistic apps and then promise you that you're ready for the App Store. On page 107 he writes that creating an app is not "straightforward." His realism is refreshing.</p>
 							</blockquote>
-							<div class="mb-attribution">
-								<p class="mb-author">Michael Smith</p>
-								<cite>Abc , Manager</cite>
-							</div>
 						</div>
 					</div>
 					<div class="item col-lg-12">
 						<div class="mb-wrap blockquote-style">
-							<div class="mb-thumb3"></div>
 							<blockquote cite="#">
-								<p>Sed vehicula, ipsum sed tristique blandit, sapien neque porta diam, vel fermentum neque nulla ut risus.</p>
+								<p>Swift By Example takes the reader through the Swift programming language by building easy to complex apps using Swift. Just look on stackoverflow and github and you will see the growing use of the swift programming language. I particularly loved building the Flappy Bird clone, which shows you that you can get anything done in swift. Must buy!</p>
 							</blockquote>
-							<div class="mb-attribution">
-								<p class="mb-author">Sandra Doe</p>
-								<cite>Def , Novelist</cite>
-							</div>
 						</div>
 					</div>
-					<div class="item col-lg-12">
-						<div class="mb-wrap blockquote-style">
-							<div class="mb-thumb4"></div>
-							<blockquote cite="#">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus pellen tesque dignissim.</p>
-							</blockquote>
-							<div class="mb-attribution">
-								<p class="mb-author">Danny Taylor</p>
-								<cite>Xyz , Founder</cite>
-							</div>
-						</div>
-					</div>
-					<div class="item col-lg-12">
-						<div class="mb-wrap blockquote-style">
-							<div class="mb-thumb5"></div>
-							<blockquote cite="#">
-								<p>Integer auctor, purus a mattis aliquet, augue ligula tincidunt elit, vitae lacinia lacus massa at nibh.</p>
-							</blockquote>
-							<div class="mb-attribution">
-								<p class="mb-author">David Smith</p>
-								<cite>Abc , Manager</cite>
-							</div>
-						</div>
-					</div>
-				</div>
+
+					
 				<!-- /.row -->
 			</div>
 			<!-- /.container -->
@@ -287,15 +249,6 @@ In my spare time, when I'm not crafting retro game clones for iOS with my kids, 
 	<!-- Contact info -->
 	<div class="cinfo" data-stellar-background-ratio="0.6">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<ul class="contact-info">
-						<li><i class="fa fa-phone"></i> +1800 1234 5678 <br>+1800 1234 5679 (FAX)</li>
-						<li><i class="fa fa-envelope-o"></i> info@website.com <br>support@website.com</li>
-						<li><i class="fa fa-map-marker"></i> Xyz Publishing Ltd <br> #123 ABC Sreet, Country, NW 12345</li>
-					</ul>
-				</div>
-			</div>
 		</div>
 		<!-- /.container -->
 	</div>
@@ -307,11 +260,12 @@ In my spare time, when I'm not crafting retro game clones for iOS with my kids, 
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="list-inline cinfo-social-buttons pull-center">
-						<li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i></a></li>
-						<li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-dribbble fa-fw"></i></a></li>
-						<li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i></a></li>
+						<li><a href="https://twitter.com/giordanoscalzo" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i></a></li>
+						<li><a href="https://github.com/gscalzo" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/giordanoscalzo" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i></a></li>						
+						<li><a href="http://www.slideshare.net/giordano" class="btn btn-default btn-lg"><i class="fa fa-slideshare fa-fw"></i></a></li>
 					</ul>
-					<p class="copyright text-center medium">Copyright &copy; <a href="http://www.dkpixels.com">Sparks</a> 2013. All Rights Reserved</p>
+					<p class="copyright text-center medium">Copyright &copy; <a href="http://giordanoscalzo.com">Giordano Scalzo</a> 2016. All Rights Reserved</p>
 				</div>
 			</div>
 		</div>
