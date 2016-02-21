@@ -22,6 +22,11 @@ p {
     font-weight: 400;
 }
 
+a {
+  color: #f89421;
+  text-decoration: none;
+}
+
 .no-padding {
     padding: 0px;
     !important;
@@ -269,7 +274,7 @@ textarea:-ms-input-placeholder {
 }
 
 i.service-icon {
-    color: #1abc9c;
+    color: #f89421;
 	width:60px;
 	height:60px;
 	line-height:60px;
@@ -288,7 +293,7 @@ i.service-icon {
 }
 
 .service-item:hover h4 {
-    color: #1abc9c;
+    color: #f89421;
 }
 
 .service-item:hover {
@@ -548,7 +553,7 @@ i.service-icon {
 }
 
 .list-group .btn {
-    background: #1abc9c !important;
+    background: #f89421 !important;
     border-color: #0fa285;
 }
 
@@ -587,7 +592,7 @@ i.service-icon {
 }
 
 .faq-content .panel-title:hover {
-    color: #1abc9c;
+    color: #f89421;
 }
 
 .faq-content .panel-default {
@@ -747,8 +752,8 @@ i.service-icon {
 }
 
 .cinfo-social-buttons .btn:hover {
-    color: #1abc9c;
-    border: 2px solid #1abc9c;
+    color: #f89421;
+    border: 2px solid #f89421;
 }
 
 /* Footer */
@@ -795,7 +800,7 @@ p.copyright {
     color: #fff;
     font-size: 14px;
     padding: 10px 20px 8px;
-    background: #1abc9c;
+    background: #f89421;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
